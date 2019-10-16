@@ -1,4 +1,4 @@
-module icode.baidu.com/k8s/k8s-test/tools/errorHelper
+module github.com/lza730/k8s-test/tools/errorHelper
 
 go 1.13
 

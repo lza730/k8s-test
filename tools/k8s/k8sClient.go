@@ -5,13 +5,12 @@ import (
 	"time"
 
 	"github.com/golang/glog"
+	"github.com/lza730/k8s-test/tools/errorHelper"
 	coreV1 "k8s.io/api/core/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
-
-	"icode.baidu.com/k8s/k8s-test/tools/errorHelper"
 )
 
 type Client struct {
